@@ -1,0 +1,5 @@
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\bin\NORDProject.dll
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\bin\NORDProject.pdb
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\obj\Debug\NORDProject.csprojResolveAssemblyReference.cache
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\obj\Debug\NORDProject.dll
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\obj\Debug\NORDProject.pdb
