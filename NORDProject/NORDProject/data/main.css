@@ -37,14 +37,24 @@ body {
 }
 
 div.TopPannel {
-	height:225px;
 	background-image:url('../design/fon/rig/topGirl.png');
-	background-repeat:no-repeat;							/* LEFT:   MainFonMenu Chuunibyou AnotherFon BlackHairLongTrotters CrossairPlusAdin OnlyRefrigeratorOnlyHardcore Pink RedEyesAndTea-nyam SoBeautiful AngelBeats */
+	background-repeat:repeat-x;								/* LEFT:   MainFonMenu Chuunibyou AnotherFon BlackHairLongTrotters CrossairPlusAdin OnlyRefrigeratorOnlyHardcore Pink RedEyesAndTea-nyam SoBeautiful AngelBeats */
 	background-position:RIGHT top;							/* CENTER: BlackRock WorldAtWar */
 }															/* RIGHT: NYgirls topGirl */
 div.TopFon {
 	background-image:url('../design/fon/MainFonMenu');
 	background-repeat:no-repeat;
+	height: 225px;
+	margin-bottom: -50px;
+}
+div.logo {
+	background-image: url('../design/Logo.png');
+	float:left;
+	height: 162px;
+	width: 378px;
+	display:block;
+	position:static;
+	margin: 8px 0 0 8px;
 }
 
 div.topMess {
@@ -53,10 +63,7 @@ text-shadow:0px 0px 5px #003b74; /* #003b74 - темный, #509cff - светл
 left:400px;top:110px;
 }
 div.soon {
-height:26px;
-/*width:200px;*/
-color:#fff;
-float:right;background:rgba(0,114,255,0.6);position:relative;margin:10px 10px auto auto;z-index:1;
+height:26px; min-width:200px;float:right;background:rgba(0,114,255,0.6);position:relative;margin:10px 10px auto auto;z-index:1;color:#fff;
 }
 hr.centerDiv {
 border:1px #509cff solid;			

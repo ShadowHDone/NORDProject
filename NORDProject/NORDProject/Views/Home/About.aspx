@@ -1,8 +1,7 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/About.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="aboutTitle" ContentPlaceHolderID="TitleContent" runat="server">
-    <title><%: ViewData["Title"] %></title>
-    <link rel="stylesheet" type="text/css" href="../../data/aboutTeam.css" />
+    <%: ViewData["Title"] %>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="PageHeaderContent" runat="server">
@@ -10,6 +9,8 @@
 </asp:Content>
 
 <asp:Content ID="aboutContent" ContentPlaceHolderID="MainContent" runat="server">
+
+<!-- Список разделов, в будущем нужно будет автоматизировать -->
 
 <div id="links">
 	<div>

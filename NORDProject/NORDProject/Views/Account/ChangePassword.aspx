@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<NORDProject.Models.ChangePasswordModel>" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/UserControlPanel.Master" Inherits="System.Web.Mvc.ViewPage<NORDProject.Models.ChangePasswordModel>" %>
 
 <asp:Content ID="changePasswordTitle" ContentPlaceHolderID="TitleContent" runat="server">
     Смена пароля
