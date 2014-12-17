@@ -6,3 +6,4 @@ C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject.Tests\b
 C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject.Tests\obj\Debug\NORDProject.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject.Tests\obj\Debug\NORDProject.Tests.dll
 C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject.Tests\obj\Debug\NORDProject.Tests.pdb
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject.Tests\bin\Debug\log4net.dll

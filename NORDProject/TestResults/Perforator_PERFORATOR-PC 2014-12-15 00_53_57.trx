@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9998d497-dd38-41f8-8a23-540ba3bc057a" name="Perforator@PERFORATOR-PC 2014-12-15 00:53:57" runUser="Perforator-PC\Perforator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Параметры тестирования по умолчанию" id="9682bc31-50ef-4ea4-8c05-fe502ea24665">
+    <Deployment runDeploymentRoot="Perforator_PERFORATOR-PC 2014-12-15 00_53_57">
+      <DeploymentItem filename="C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\NORDProject\NORDProject\bin\NORDProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-12-15T00:53:57.6229072+03:00" queuing="2014-12-15T00:54:01.8411485+03:00" start="2014-12-15T00:54:02.1271649+03:00" finish="2014-12-15T00:54:04.7403143+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="da91d9b7-471c-f70e-819c-65b3da2d39e3">
+      <Execution id="40bce9ad-ed54-4c6b-92ab-c5d1bb65141c" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="ade86627-71a5-17ec-8fd1-c737b80c28a6">
+      <Execution id="c86060a8-d61b-4ad7-886b-5afd94c0b34a" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="6a5a4918-044c-fd36-22a0-a33a66c974ef">
+      <Execution id="42be129a-a6e8-4322-8c87-57ab9f3d83f5" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.HomeControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="c385ca54-7ca4-596d-7efc-e7f090d376ee">
+      <Execution id="3c61afa2-19a3-468e-b57c-a4b73833611c" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="de4978d7-01f8-b631-5759-0afa0bb76122">
+      <Execution id="076c3ac8-c195-43fb-b38a-befbf4028897" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="8c8b1885-438d-2749-cfc6-cf0452bbbd9f">
+      <Execution id="e077dd00-76a3-40e7-8a56-99478ec7dafe" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="3e312cf0-5cc6-0e76-99b4-2d5044468421">
+      <Execution id="fc13d209-526b-4fdf-840f-5594135285ac" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="d26fd7cf-58ea-c2c0-2843-1df6311c9f6f">
+      <Execution id="16a3993f-2d02-46d0-9c70-57efc1728c57" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="0b86dca8-1860-b4b9-0b3f-eee8c4a87088">
+      <Execution id="e7b4903a-de47-4139-8154-56a743bfabbe" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="c97ccfc5-9f66-da30-9cac-ff51d6aabeef">
+      <Execution id="d444554d-1286-4911-bc49-c5db700fb6bd" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="bdcfda76-3e8d-fbd8-bacd-1510a08d9a8b">
+      <Execution id="d0638f26-c997-4f5f-80bb-53fa4ececa03" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.HomeControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="328bcdb5-6531-7fa3-a94d-1e01ddc58c0a">
+      <Execution id="2120e4dc-8411-4cfe-8c85-0b38891fb11c" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="f7b124ab-c405-8e63-46be-32daca59857e">
+      <Execution id="80221a6f-4621-446b-bd2f-497b889120b2" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="ca63df7b-a61c-4afa-f7e7-002a7e16da3e">
+      <Execution id="b8099e7c-07d1-4563-9095-c28b9e7f4e47" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="cdee043b-7566-5245-e80a-b8ac8259847f">
+      <Execution id="7bf75fc2-03ff-4297-826b-6f80cfe194af" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="2212aae3-5f9e-d9fe-3c11-7ee3c5f2c740">
+      <Execution id="82f25e01-4e35-4e0a-ae2c-499f812012c3" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\users\perforator\desktop\temp\git\nordproject\nordproject\nordproject.tests\bin\debug\nordproject.tests.dll" id="9f8c143e-64aa-5960-46f6-403676292abe">
+      <Execution id="e783bf91-ed3c-4d83-810d-d51e24a6133a" />
+      <TestMethod codeBase="C:/Users/Perforator/Desktop/TEMP/GIT/NORDProject/NORDProject/NORDProject.Tests/bin/Debug/NORDProject.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NORDProject.Tests.Controllers.AccountControllerTest, NORDProject.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f7b124ab-c405-8e63-46be-32daca59857e" executionId="80221a6f-4621-446b-bd2f-497b889120b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ade86627-71a5-17ec-8fd1-c737b80c28a6" executionId="c86060a8-d61b-4ad7-886b-5afd94c0b34a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdee043b-7566-5245-e80a-b8ac8259847f" executionId="7bf75fc2-03ff-4297-826b-6f80cfe194af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c97ccfc5-9f66-da30-9cac-ff51d6aabeef" executionId="d444554d-1286-4911-bc49-c5db700fb6bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2212aae3-5f9e-d9fe-3c11-7ee3c5f2c740" executionId="82f25e01-4e35-4e0a-ae2c-499f812012c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c8b1885-438d-2749-cfc6-cf0452bbbd9f" executionId="e077dd00-76a3-40e7-8a56-99478ec7dafe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de4978d7-01f8-b631-5759-0afa0bb76122" executionId="076c3ac8-c195-43fb-b38a-befbf4028897" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca63df7b-a61c-4afa-f7e7-002a7e16da3e" executionId="b8099e7c-07d1-4563-9095-c28b9e7f4e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c385ca54-7ca4-596d-7efc-e7f090d376ee" executionId="3c61afa2-19a3-468e-b57c-a4b73833611c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="328bcdb5-6531-7fa3-a94d-1e01ddc58c0a" executionId="2120e4dc-8411-4cfe-8c85-0b38891fb11c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d26fd7cf-58ea-c2c0-2843-1df6311c9f6f" executionId="16a3993f-2d02-46d0-9c70-57efc1728c57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b86dca8-1860-b4b9-0b3f-eee8c4a87088" executionId="e7b4903a-de47-4139-8154-56a743bfabbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f8c143e-64aa-5960-46f6-403676292abe" executionId="e783bf91-ed3c-4d83-810d-d51e24a6133a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da91d9b7-471c-f70e-819c-65b3da2d39e3" executionId="40bce9ad-ed54-4c6b-92ab-c5d1bb65141c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e312cf0-5cc6-0e76-99b4-2d5044468421" executionId="fc13d209-526b-4fdf-840f-5594135285ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdcfda76-3e8d-fbd8-bacd-1510a08d9a8b" executionId="d0638f26-c997-4f5f-80bb-53fa4ececa03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a5a4918-044c-fd36-22a0-a33a66c974ef" executionId="42be129a-a6e8-4322-8c87-57ab9f3d83f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="80221a6f-4621-446b-bd2f-497b889120b2" testId="f7b124ab-c405-8e63-46be-32daca59857e" testName="ChangePassword_Get_ReturnsView" computerName="PERFORATOR-PC" duration="00:00:00.0423917" startTime="2014-12-15T00:54:02.3561780+03:00" endTime="2014-12-15T00:54:04.1852826+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80221a6f-4621-446b-bd2f-497b889120b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c86060a8-d61b-4ad7-886b-5afd94c0b34a" testId="ade86627-71a5-17ec-8fd1-c737b80c28a6" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="PERFORATOR-PC" duration="00:00:00.0129219" startTime="2014-12-15T00:54:04.2012835+03:00" endTime="2014-12-15T00:54:04.2212846+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c86060a8-d61b-4ad7-886b-5afd94c0b34a">
+    </UnitTestResult>
+    <UnitTestResult executionId="7bf75fc2-03ff-4297-826b-6f80cfe194af" testId="cdee043b-7566-5245-e80a-b8ac8259847f" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="PERFORATOR-PC" duration="00:00:00.0033118" startTime="2014-12-15T00:54:04.4462975+03:00" endTime="2014-12-15T00:54:04.4552980+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bf75fc2-03ff-4297-826b-6f80cfe194af">
+    </UnitTestResult>
+    <UnitTestResult executionId="d444554d-1286-4911-bc49-c5db700fb6bd" testId="c97ccfc5-9f66-da30-9cac-ff51d6aabeef" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="PERFORATOR-PC" duration="00:00:00.0006528" startTime="2014-12-15T00:54:04.4692988+03:00" endTime="2014-12-15T00:54:04.4742991+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d444554d-1286-4911-bc49-c5db700fb6bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="82f25e01-4e35-4e0a-ae2c-499f812012c3" testId="2212aae3-5f9e-d9fe-3c11-7ee3c5f2c740" testName="ChangePasswordSuccess_ReturnsView" computerName="PERFORATOR-PC" duration="00:00:00.0003700" startTime="2014-12-15T00:54:04.4782993+03:00" endTime="2014-12-15T00:54:04.4822996+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82f25e01-4e35-4e0a-ae2c-499f812012c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="e077dd00-76a3-40e7-8a56-99478ec7dafe" testId="8c8b1885-438d-2749-cfc6-cf0452bbbd9f" testName="LogOff_LogsOutAndRedirects" computerName="PERFORATOR-PC" duration="00:00:00.0007044" startTime="2014-12-15T00:54:04.4862998+03:00" endTime="2014-12-15T00:54:04.4913001+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e077dd00-76a3-40e7-8a56-99478ec7dafe">
+    </UnitTestResult>
+    <UnitTestResult executionId="076c3ac8-c195-43fb-b38a-befbf4028897" testId="de4978d7-01f8-b631-5759-0afa0bb76122" testName="LogOn_Get_ReturnsView" computerName="PERFORATOR-PC" duration="00:00:00.0003196" startTime="2014-12-15T00:54:04.4963004+03:00" endTime="2014-12-15T00:54:04.5003006+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="076c3ac8-c195-43fb-b38a-befbf4028897">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8099e7c-07d1-4563-9095-c28b9e7f4e47" testId="ca63df7b-a61c-4afa-f7e7-002a7e16da3e" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="PERFORATOR-PC" duration="00:00:00.0014593" startTime="2014-12-15T00:54:04.5053009+03:00" endTime="2014-12-15T00:54:04.5103012+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8099e7c-07d1-4563-9095-c28b9e7f4e47">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c61afa2-19a3-468e-b57c-a4b73833611c" testId="c385ca54-7ca4-596d-7efc-e7f090d376ee" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="PERFORATOR-PC" duration="00:00:00.0009754" startTime="2014-12-15T00:54:04.5183016+03:00" endTime="2014-12-15T00:54:04.5263021+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c61afa2-19a3-468e-b57c-a4b73833611c">
+    </UnitTestResult>
+    <UnitTestResult executionId="2120e4dc-8411-4cfe-8c85-0b38891fb11c" testId="328bcdb5-6531-7fa3-a94d-1e01ddc58c0a" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="PERFORATOR-PC" duration="00:00:00.0003324" startTime="2014-12-15T00:54:04.5303023+03:00" endTime="2014-12-15T00:54:04.5353026+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2120e4dc-8411-4cfe-8c85-0b38891fb11c">
+    </UnitTestResult>
+    <UnitTestResult executionId="16a3993f-2d02-46d0-9c70-57efc1728c57" testId="d26fd7cf-58ea-c2c0-2843-1df6311c9f6f" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="PERFORATOR-PC" duration="00:00:00.0003957" startTime="2014-12-15T00:54:04.5403029+03:00" endTime="2014-12-15T00:54:04.5453032+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16a3993f-2d02-46d0-9c70-57efc1728c57">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7b4903a-de47-4139-8154-56a743bfabbe" testId="0b86dca8-1860-b4b9-0b3f-eee8c4a87088" testName="Register_Get_ReturnsView" computerName="PERFORATOR-PC" duration="00:00:00.0004194" startTime="2014-12-15T00:54:04.5493034+03:00" endTime="2014-12-15T00:54:04.5553038+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7b4903a-de47-4139-8154-56a743bfabbe">
+    </UnitTestResult>
+    <UnitTestResult executionId="e783bf91-ed3c-4d83-810d-d51e24a6133a" testId="9f8c143e-64aa-5960-46f6-403676292abe" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="PERFORATOR-PC" duration="00:00:00.0014310" startTime="2014-12-15T00:54:04.5593040+03:00" endTime="2014-12-15T00:54:04.5653043+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e783bf91-ed3c-4d83-810d-d51e24a6133a">
+    </UnitTestResult>
+    <UnitTestResult executionId="40bce9ad-ed54-4c6b-92ab-c5d1bb65141c" testId="da91d9b7-471c-f70e-819c-65b3da2d39e3" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="PERFORATOR-PC" duration="00:00:00.0005761" startTime="2014-12-15T00:54:04.5693046+03:00" endTime="2014-12-15T00:54:04.5733048+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40bce9ad-ed54-4c6b-92ab-c5d1bb65141c">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc13d209-526b-4fdf-840f-5594135285ac" testId="3e312cf0-5cc6-0e76-99b4-2d5044468421" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="PERFORATOR-PC" duration="00:00:00.0003818" startTime="2014-12-15T00:54:04.5783051+03:00" endTime="2014-12-15T00:54:04.5823053+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc13d209-526b-4fdf-840f-5594135285ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0638f26-c997-4f5f-80bb-53fa4ececa03" testId="bdcfda76-3e8d-fbd8-bacd-1510a08d9a8b" testName="Index" computerName="PERFORATOR-PC" duration="00:00:00.0058114" startTime="2014-12-15T00:54:04.5863055+03:00" endTime="2014-12-15T00:54:04.5963061+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0638f26-c997-4f5f-80bb-53fa4ececa03">
+    </UnitTestResult>
+    <UnitTestResult executionId="42be129a-a6e8-4322-8c87-57ab9f3d83f5" testId="6a5a4918-044c-fd36-22a0-a33a66c974ef" testName="About" computerName="PERFORATOR-PC" duration="00:00:00.0004490" startTime="2014-12-15T00:54:04.6043066+03:00" endTime="2014-12-15T00:54:04.6083068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42be129a-a6e8-4322-8c87-57ab9f3d83f5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultvalue="Data Source=localhost\sqlexpress;Initial Catalog=NordDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Perforator\\Desktop\\TEMP\\GIT\\NORDProject\\NORDProject\\NORDProject\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+</parameters>

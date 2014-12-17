@@ -1,0 +1,5 @@
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\Router\Router\bin\Debug\Router.exe
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\Router\Router\bin\Debug\Router.pdb
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\Router\Router\obj\x86\Debug\Router.exe
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\Router\Router\obj\x86\Debug\Router.pdb
+C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\Router\Router\obj\x86\Debug\Router.csprojResolveAssemblyReference.cache

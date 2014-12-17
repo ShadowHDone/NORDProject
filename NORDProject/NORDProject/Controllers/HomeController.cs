@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using GreatMazinger;
 using NORDProject.DAO;
 using NORDProject.Models;
+
 
 namespace NORDProject.Controllers
 {
     [HandleError]
     public class HomeController : Controller
     {
+        //private Calc calc = new Calc(); // Создаем объект от GreatMizenger
         static string nordp = "NORDP | ";
 
         public ActionResult Index()
@@ -18,9 +21,9 @@ namespace NORDProject.Controllers
             ViewData["Message"] = "Все ленты новостей";
             ViewData["Title"] = nordp + "Все ленты новостей";
 
-
             return View(new NewsDAO().select());
         }
+        
 
         public ActionResult About()
         {
@@ -40,12 +43,12 @@ namespace NORDProject.Controllers
         // GET: /Home/News
         public ActionResult News(int id)
         {
-            NewsDAO news = new NewsDAO();
-            string select = news.selectbyId(id).title;
+            News news = new NewsDAO().selectbyId(id);
+            string select = news.title;
             ViewData["Message"] = select;
             ViewData["Title"] = nordp + select;
 
-            return View(news.selectbyId(id));
+            return View(news);
         }
 
         //
@@ -125,6 +128,11 @@ namespace NORDProject.Controllers
                 return View("Edit");
             }
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Comment(int id)
+        {
+            return PartialView(new CommentsDAO().selectbyId(id));
         }
 
     }
