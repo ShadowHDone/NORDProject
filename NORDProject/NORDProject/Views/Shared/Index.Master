@@ -47,7 +47,23 @@
 			<div id="team"><ul><li><%: Html.ActionLink("Team", "About", "Home")%></li></ul></div>
 		<ul>
 			<li><%: Html.ActionLink("Все новости", "Index", "Home")%></li>
-            <li><%: Html.ActionLink("News List", "NewsList", "Home")%></li>
+
+
+            <% if (Page.User.IsInRole("Author"))
+               { %>
+                <li><%: Html.ActionLink("Мои новости", "NewsList", "Home")%></li>
+
+                <% if (Page.User.IsInRole("Super-Author") || Page.User.IsInRole("Admin"))
+                   { %>
+                    <li><%: Html.ActionLink("Управление новостями", "FullNewsList", "Home")%></li>
+                <% } %>
+            
+            <% } %>
+            <% if (Page.User.IsInRole("Super-User") || Page.User.IsInRole("Admin"))
+                   { %>
+                    <li><%: Html.ActionLink("Жалобы", "Reports", "Home")%></li>
+                <% } %>
+
 
 		</ul>
 	</div>

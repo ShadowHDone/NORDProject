@@ -15,19 +15,44 @@
         <div>Теги: <%: Model.tags %></div>
         
     <p>
-    <% if(User.IsInRole("Admin")){ %>
-        <%: Html.ActionLink("Редактировать", "Edit", new { id=Model.ID }) %> |
+
+    <% if (Model.status == "Недооформлено")
+       { %>
+    <% if (User.Identity.Name==Model.author || User.IsInRole("Super-Author"))
+       { %>
+       <%: Html.ActionLink("Опубликовать", "SetPublic", new { id = Model.ID })%> |
+       <%: Html.ActionLink("Редактировать", "Edit", new { id = Model.ID })%> |
+       <%: Html.ActionLink("Удалить", "Delete", new { id = Model.ID })%> |
+    <% }
+       } %>
+
+
+
+    <% if(User.IsInRole("Super-Author") && Model.status=="Опубликовано")
+       { %>
+
+        <%: Html.ActionLink("[В \"Недооформлено\"]", "SetTemp", new { id = Model.ID })%> |
     <% } %>
+
+        <% if(User.Identity.IsAuthenticated)
+       { %>
+
+        <%: Html.ActionLink("Пожаловаться", "SetNewsReport", new { id = Model.ID })%> |
+    <% } %>
+
         <%: Html.ActionLink("Вернуться", "Index") %>
+
     </p>
 </div>
 
-<% if (User.Identity.IsAuthenticated)
-   {
-       Html.RenderAction("Comment", Model.ID);
-   }
-   else
-   { %>
+       <% Html.RenderAction("Comment", Model.ID); %>
+
+   <% if (User.Identity.IsAuthenticated)
+      {
+          Html.RenderAction("CommentCreate", new { id = Model.ID });
+      }
+      else
+      { %>
    Только зарегестрированные пользователи могут оставлять комментарии!
    <% } %>
 

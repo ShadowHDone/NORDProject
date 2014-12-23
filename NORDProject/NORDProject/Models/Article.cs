@@ -9,6 +9,7 @@ namespace NORDProject.Models
     {
         public string title { get; set; }
         public string tags { get; set; }
+        public string status { get; set; }
 
         public Article(string title, string tags, int ID, string author, string text, string DT, string LastEditDT):base(ID,author,text,DT,LastEditDT)
         {

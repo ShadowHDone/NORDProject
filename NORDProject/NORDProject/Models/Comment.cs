@@ -7,6 +7,6 @@ namespace NORDProject.Models
 {
     public class Comment : Post
     {
-
+        public int NewsID { get; set; }
     }
 }

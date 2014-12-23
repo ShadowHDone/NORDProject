@@ -34,9 +34,14 @@ namespace NORDProject.Controllers
         }
 
         // Бесполезный метод, нужно будет удалить, когда убеждусь, что и само представление тоже можно удалить
+        //Хотя нет, хорошо, что не удалил -- он сослужил мне добрую службу :)
         public ActionResult NewsList()
         {
-            return View(new NewsDAO().select());
+            return View(new NewsDAO().selectForAuthor(User.Identity.Name));
+        }
+        public ActionResult FullNewsList()
+        {
+            return View(new NewsDAO().selectAll());
         }
 
         //
@@ -49,6 +54,18 @@ namespace NORDProject.Controllers
             ViewData["Title"] = nordp + select;
 
             return View(news);
+        }
+
+        public ActionResult SetTemp(int id)
+        {
+            new NewsDAO().SetStatusTemp(id);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult SetPublic(int id)
+        {
+            new NewsDAO().SetStatusPublic(id);
+            return RedirectToAction("Index");
         }
 
         //
@@ -118,15 +135,9 @@ namespace NORDProject.Controllers
         [AcceptVerbs(HttpVerbs.Post)]
         public ActionResult Create(News news)
         {
-            try
-            {
-                NewsDAO dao = new NewsDAO();
-                dao.insert(news);
-            }
-            catch
-            {
-                return View("Edit");
-            }
+            NewsDAO dao = new NewsDAO();
+            dao.insert(news);
+
             return RedirectToAction("Index");
         }
 
@@ -135,5 +146,37 @@ namespace NORDProject.Controllers
             return PartialView(new CommentsDAO().selectbyId(id));
         }
 
+        //
+        // GET: /Home/CommentCreate
+        public ActionResult CommentCreate(int id)
+        {
+            return PartialView(new Comment() { NewsID = id });
+        }
+
+        //
+        // POST: /Home/CommentCreate
+        [AcceptVerbs(HttpVerbs.Post)]
+        public ActionResult CommentCreate(Comment comment)
+        {
+            comment.author = User.Identity.Name;
+            new CommentsDAO().insert(comment);
+            return View();
+        }
+
+        //REPORTS
+        public ActionResult Reports()
+        {
+            return View(new ReportDAO().select());
+        }
+        public ActionResult SetNewsReport(int id)
+        {
+            new ReportDAO().SetNewsReport(id, User.Identity.Name);
+            return RedirectToAction("Index");
+        }
+        public ActionResult SetCommentReport(int id)
+        {
+            new ReportDAO().SetCommentReport(id, User.Identity.Name);
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -1,52 +1,40 @@
 ﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<IEnumerable<NORDProject.Models.Comment>>" %>
 
-    <table>
-        <tr>
-            <th></th>
-            <th>
-                ID
-            </th>
-            <th>
-                author
-            </th>
-            <th>
-                text
-            </th>
-            <th>
-                DT
-            </th>
-            <th>
-                LastEditDT
-            </th>
-        </tr>
 
     <% foreach (var item in Model) { %>
     
-        <tr>
-            <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
-            </td>
-            <td>
-                <%: item.ID %>
-            </td>
-            <td>
+        <div style="margin-left:5px;"><hr />
+        <font style="font-size:12px">
                 <%: item.author %>
-            </td>
-            <td>
-                <%: item.text %>
-            </td>
-            <td>
+
+                <font style="color:#999;">
                 <%: item.DT %>
-            </td>
-            <td>
-                <%: item.LastEditDT %>
-            </td>
-        </tr>
+                </font></font>
+
+                <br />
+                
+                <% if (item.LastEditDT != item.DT)
+                   { %>
+                       <%: item.LastEditDT %>
+                  <% } %>
+
+                <%: item.text %>
+            <br />
+            <font style="font-size: 12px">
+                <% if (item.author == Page.User.Identity.Name || Page.User.IsInRole("Super-User"))
+                   { %>
+                <%: Html.ActionLink("Удалить", "DeleteComment", new { id=item.ID })%>
+                |
+                <% } %>
+                <% if(Page.User.Identity.IsAuthenticated)
+       { %>
+                <%: Html.ActionLink("Пожаловаться", "SetCommentReport", new { id = item.ID })%>
+                <% } %>
+        </font>
+
+        </div>
     
     <% } %>
 
-    </table>
 
 

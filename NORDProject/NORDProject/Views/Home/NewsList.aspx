@@ -6,28 +6,25 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     
-    <% if(User.IsInRole("Admin")){ %>
+    <% if (User.IsInRole("Author"))
+       { %>
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%: Html.ActionLink("Написать статью", "Create") %>
     </p>
     <% } %>
 
 
     <% foreach (var item in Model) { %>
     
-        <a href="/Home/Details/<%: item.ID %>">
+        <a href="/Home/News/<%: item.ID %>">
             <div class="Nord">
             <font style="font-size:28px"><%: item.title %></font>
             <br />
             <font style="font-size:14px"><%: item.smallInfo %></font>
             <br />
-
-                <% if(User.IsInRole("Admin")){ %>
-                    <font style="Color:Red;">Администрирование: 
-                    <%: Html.ActionLink("[Редактировать]", "Edit", new { id=item.ID }) %> |
-                    <%: Html.ActionLink("[Удалить]", "Delete", new { id = item.ID })%>
+            Дата создания: <%: item.DT %>, редактировалось последний раз: <%: item.LastEditDT %> <br />
+                    <font style="Color:Red;">Статус: <%: item.status %>
                     </font>
-                <% } %>
                  
             </div>
         </a>
