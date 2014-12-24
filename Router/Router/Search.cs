@@ -38,7 +38,7 @@ namespace Router
                 local_route.Copy(before);
                 local_route.incPrice(price);
                 Point h = con.GetPoint(from);
-                Console.Write(local_route);
+                //Console.Write(local_route);
                 if (h == to)
                 {
                   

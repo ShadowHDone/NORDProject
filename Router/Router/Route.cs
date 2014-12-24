@@ -34,7 +34,6 @@ namespace Router
             String result = "Найденный путь:\n";
             foreach (Point p in path)
             {
-
                 result += p.GetNum() + "-";
             }
             result += "(" + price + ")";
