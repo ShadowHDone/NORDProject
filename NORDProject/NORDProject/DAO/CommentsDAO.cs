@@ -53,5 +53,14 @@ namespace NORDProject.DAO
             base.Disconnect();
             return null;
         }
+
+        public SqlDataReader delete(int id)
+        {
+            base.Connect();
+            String command = "DELETE FROM Comments WHERE ID = '" + id + "'";
+            base.perform(command);
+            base.Disconnect();
+            return null;
+        }
     }
 }

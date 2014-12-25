@@ -90,6 +90,8 @@
     <Compile Include="Models\News.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\Wiki.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -162,6 +162,11 @@ namespace NORDProject.Controllers
             new CommentsDAO().insert(comment);
             return View();
         }
+        public ActionResult DeleteComment(int id)
+        {
+            new CommentsDAO().delete(id);
+            return RedirectToAction("Index");
+        }
 
         //REPORTS
         public ActionResult Reports()

@@ -10,7 +10,7 @@
     <% if (User.IsInRole("Author"))
        { %>
     <p>
-        <%: Html.ActionLink("Напишать новошть", "Create") %>
+        <%: Html.ActionLink("Написать новость", "Create") %>
     </p>
     <% } %>
     <% foreach (var item in Model) { %>
@@ -24,7 +24,7 @@
             <br />
             <% if (User.IsInRole("Admin") || User.IsInRole("Super-Author")){ %>
             <font style="color: Red;">Администрирование:
-                <%: Html.ActionLink("[В \"Недооформлено\"]", "SetTemp", new { id = item.ID })%> |
+                <%: Html.ActionLink("[В \"Недооформлено\"]", "SetTemp", new { id = item.ID })%>
 
 
             </font>
