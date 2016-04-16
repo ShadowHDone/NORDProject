@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using GreatMazinger;
 using NORDProject.DAO;
 using NORDProject.Models;
+using log4net;
 
 
 namespace NORDProject.Controllers
@@ -13,11 +14,13 @@ namespace NORDProject.Controllers
     [HandleError]
     public class HomeController : Controller
     {
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         //private Calc calc = new Calc(); // Создаем объект от GreatMizenger
         static string nordp = "NORDP | ";
 
         public ActionResult Index()
         {
+            log.Info("Starting application"); 
             ViewData["Message"] = "Все ленты новостей";
             ViewData["Title"] = nordp + "Все ленты новостей";
 
@@ -34,7 +37,7 @@ namespace NORDProject.Controllers
         }
 
         // Бесполезный метод, нужно будет удалить, когда убеждусь, что и само представление тоже можно удалить
-        //Хотя нет, хорошо, что не удалил -- он сослужил мне добрую службу :)
+        // Хотя нет, хорошо, что не удалил -- он сослужил мне добрую службу :)
         public ActionResult NewsList()
         {
             return View(new NewsDAO().selectForAuthor(User.Identity.Name));

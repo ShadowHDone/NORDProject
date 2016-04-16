@@ -1,4 +1,0 @@
-C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\GreatMazinger\GreatMazinger\bin\Debug\GreatMazinger.pdb
-C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\GreatMazinger\GreatMazinger\obj\x86\Debug\GreatMazinger.pdb
-C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\GreatMazinger\GreatMazinger\bin\Debug\GreatMazinger.dll
-C:\Users\Perforator\Desktop\TEMP\GIT\NORDProject\GreatMazinger\GreatMazinger\obj\x86\Debug\GreatMazinger.dll
